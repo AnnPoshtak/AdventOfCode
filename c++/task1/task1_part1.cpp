@@ -9,8 +9,8 @@ int main(){
 	int currentNumber = 50;
 
 	for (long long i = 0; i < array.size(); i++){
-		long long number = stoll(array[i].erase(0, 1));
-		char direction = array[i][0];
+  char direction = array[i][0];
+		long long number = stoll(array[i);
 
 		if (direction == 'L'){
 			currentNumber = abs(currentNumber-number) % 100;
